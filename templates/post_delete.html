@@ -3,7 +3,7 @@
 {% block content %}
 <h1>Delete Post</h1>
 <form action="" method="post">{% csrf_token %}
-    <p>"{{ post.title }}" postini o'chirishni xohlaysizmi?</p>
+    <p>"{{ post.title }}" Do you want delete this post?</p>
     <input type="submit" value="Delete">
 </form>
 {% endblock content %}
